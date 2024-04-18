@@ -1,0 +1,23 @@
+h1
+{
+    color: #fff;
+    font-family: "Sedan", serif;
+    text-align: center;
+}
+.Motivo
+{
+    
+        width: 500px;
+    margin: auto;
+    border : 10px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: green 
+   
+    
+}
+
+.imagemMilitar
+{
+
+}
