@@ -1,16 +1,10 @@
-body {
-    background-color: green;
+h1
+{
+    background-color: rgba(52, 177, 52, 0.952);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    align-items: center;
-    padding:20px;
-}
-
-a {
-    color: black;
-    text-decoration: none;
+input
+{
+    
+    border: 1px solid rgb(53, 201, 53);
 }
