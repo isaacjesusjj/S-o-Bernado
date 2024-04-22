@@ -5,10 +5,15 @@ body {
   }
   
   header {
-    background-color: #eff30e;
-    color: #238a2c;
+    background-color: #24241e;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    
   }
   
   .main {
@@ -21,13 +26,13 @@ body {
     grid-gap: 20px;
   }
   
-  .grid-item {
+  .itens {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: center;
   }
   
-  .grid-item img {
+  .itens img {
     max-width: 100%;
     height: auto;
   }
