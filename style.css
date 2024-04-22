@@ -1,33 +1,61 @@
+body
+{
+    background: #165c0dcc;
+    width: 1400px;
+    margin: auto;
+    text-align: justify;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 h1
 {
-<<<<<<< HEAD
-    color: #fff;
-    font-family: "Sedan", serif;
     text-align: center;
+background-color: rgb(18, 104, 22);
+width: 400px;
+margin: auto;
+color: aliceblue;
 }
-.Motivo
+
+h2
 {
-    
-        width: 500px;
+    text-align: center;
+    background-color: rgb(18, 104, 22);
     margin: auto;
-    border : 10px solid #ccc;
+    color: aliceblue;
+}
+
+h3
+{
+    text-align: center;
+    background-color: rgb(18, 104, 22);
+    margin: auto;
+    color: aliceblue;
+}
+
+
+.section1
+{
     display: flex;
+    justify-content:space-around;
     flex-wrap: wrap;
-    background-color: green 
-   
-    
 }
 
-.imagemMilitar
+.text1
 {
+    width: 400px;
+    display: flex;
+    background-color: rgb(15, 145, 24);
+    border:1px, solid, ;
+}
 
-=======
-    background-color: rgba(52, 177, 52, 0.952);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.text2
+{   
+    width: 400px;
+    display: flex;
+    background-color: rgb(15, 145, 24);
+    border:1px, solid, ; 
 }
-input
-{
-    
-    border: 1px solid rgb(53, 201, 53);
->>>>>>> b27b26224fdde8b25a1f28d3827e9dc5c46be278
-}
+
+
