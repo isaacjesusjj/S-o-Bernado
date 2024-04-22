@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #24241e;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .itens {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .itens img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .caption {
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
