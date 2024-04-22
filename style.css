@@ -1,33 +1,62 @@
 h1
 {
-<<<<<<< HEAD
     color: #fff;
-    font-family: "Sedan", serif;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
 }
-.Motivo
-{
-    
-        width: 500px;
-    margin: auto;
-    border : 10px solid #ccc;
+
+body {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+
+section {
     display: flex;
-    flex-wrap: wrap;
-    background-color: green 
+
+}
+
+.img {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
    
     
 }
-
-.imagemMilitar
+.Motivo
 {
-
-=======
-    background-color: rgba(52, 177, 52, 0.952);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-input
-{
+    width: 400px;
+    border : 10px solid #000000;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(62, 159, 62) 
     
-    border: 1px solid rgb(53, 201, 53);
->>>>>>> b27b26224fdde8b25a1f28d3827e9dc5c46be278
+}
+
+
+.comoera
+{
+    width: 400px;
+    border : 10px solid #000000;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(62, 159, 62) 
+}
+
+.fim
+{
+    width: 400px;
+    border : 10px solid #000000;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(62, 159, 62) 
+}
+
+article
+{
+display: flex;
+justify-content: space-around;
 }
