@@ -1,5 +1,27 @@
 h1
 {
+<<<<<<< HEAD
+    color: #fff;
+    font-family: "Sedan", serif;
+    text-align: center;
+}
+.Motivo
+{
+    
+        width: 500px;
+    margin: auto;
+    border : 10px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: green 
+   
+    
+}
+
+.imagemMilitar
+{
+
+=======
     background-color: rgba(52, 177, 52, 0.952);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -7,4 +29,5 @@ input
 {
     
     border: 1px solid rgb(53, 201, 53);
+>>>>>>> b27b26224fdde8b25a1f28d3827e9dc5c46be278
 }
