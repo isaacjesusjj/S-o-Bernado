@@ -1,12 +1,42 @@
 body
 {
     background: #165c0dcc;
-    width: 1400px;
+    width: 1950px;
     margin: auto;
     text-align: justify;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+header {
+    background-color: #2e4629;
+    color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #1f1b1b;
+}
+
+nav ul {
+    list-style: none;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #4f6e3d;
+    padding: 5px 20px;
+    border-radius:5px ;
 }
 
 h1
