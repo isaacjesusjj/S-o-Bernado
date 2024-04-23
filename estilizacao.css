@@ -12,8 +12,11 @@
   }
   
   .img2 {
-    width: 500px;
+    width: 600px;
+    height: 50vh;
+    
   }
+  
   
   header {
     background-color: #103816;
@@ -59,16 +62,18 @@
     background-color: #165c0dcc;
     text-align: center;
     color: #fff;
-    padding: 50px 20px;
+    height: 83vh;
     border-bottom: 2px solid #fff; 
   }
   
   .texto h2 {
     margin-bottom: 20px;
+    
+    
   }
   
   .texto p {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
   
   footer {
@@ -76,6 +81,7 @@
     color: #fff;
     text-align: center;
     padding: 20px;
+    font-family:  "Bebas Neue", sans-serif;
     border-top: 2px solid #fff; 
   }
   
