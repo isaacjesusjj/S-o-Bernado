@@ -5,10 +5,33 @@ body {
   }
   
   header {
-    background-color: #eff30e;
-    color: #238a2c;
+    background-color: #353532;
+    color: #fff;
+    font-family:  "Bebas Neue", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
     padding: 20px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #000000; /* Adicionando borda inferior */
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #817777; /* Adicionando borda aos links */
+    padding: 5px 10px; /* Adicionando preenchimento aos links */
+    border-radius: 5px;
+  }
+
+  nav ul li a:hover {
+    background-color: #000000; /* Mudando a cor de fundo ao passar o mouse */
+    color: #ffffff; /* Mudando a cor do texto ao passar o mouse */
   }
   
   .main {
@@ -17,23 +40,26 @@ body {
   
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
   }
   
-  .grid-item {
+  .itens {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: center;
   }
   
-  .grid-item img {
+  .itens img {
     max-width: 100%;
     height: auto;
   }
   
-  .caption {
+  .foto {
     margin-top: 10px;
     font-style: italic;
   }
-  
+
+  .modft4 {
+    width: 400px;
+  }
