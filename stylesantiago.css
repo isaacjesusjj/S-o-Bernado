@@ -88,4 +88,11 @@ h3
     border:1px, solid, ; 
 }
 
-
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+    font-family:  "Bebas Neue", sans-serif;
+    border-top: 2px solid #fff; 
+  }

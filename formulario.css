@@ -41,3 +41,12 @@ nav ul li a:hover {
     background-color: #75b657;
     color: #000000d3;
 }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family:  "Bebas Neue", sans-serif;
+    border-top: 2px solid #fff; 
+  }
