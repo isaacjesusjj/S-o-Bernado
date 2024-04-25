@@ -2,10 +2,11 @@ body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 header {
-    background-color: #b99c9c;
+    background-color: #9cb9a1;
     color: #fff;
     padding: 20px 0;
     text-align: center;
