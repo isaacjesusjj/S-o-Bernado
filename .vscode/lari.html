@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para Você</title>
+  <style>
+    body {
+      margin: 0;
+      background: url(https://img.odcdn.com.br/wp-content/uploads/2024/03/hellokitty.jpg) no-repeat fixed; /* Coloque o nome do arquivo da imagem aqui */
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Arial', sans-serif;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+    .container {
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5); /* Fundo transparente para contraste */
+      padding: 20px;
+      border-radius: 15px;
+    }
+    h1 {
+      font-size: 3rem;
+      animation: fadeIn 3s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 30px;
+      background: #ff758c;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+      font-size: 1.2rem;
+      text-decoration: none;
+      animation: pulse 1.5s infinite;
+      text-shadow: none;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #ff516a;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Oi, dedinho de tambor</h1>
+    
+    <!-- Botão com link para a página -->
+    <a href="registros.html " class="btn">Clica aqui doida</a>
+  </div>
+</body>
+</html>
